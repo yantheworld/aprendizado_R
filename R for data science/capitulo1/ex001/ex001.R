@@ -4,11 +4,14 @@ library(dados)
 library(ggthemes)
 
 dados::pinguins
+dados::diamante
+dados::milhas
 
 glimpse(pinguins)
 view(pinguins)
 
 ??pinguins
+?milhas
 
 #Cria um grafico
 ggplot(data = pinguins,
